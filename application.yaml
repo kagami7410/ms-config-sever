@@ -1,0 +1,17 @@
+my:
+  greeting: Hello wprld from config server
+  list:
+    values: One, Two, Three
+app:
+  name: my app
+  description: Welcome to ${app.name}
+
+
+db:
+  connection: connection string from cofig server
+  host: 127.0.0.1
+  port: 1200
+
+management.endpoints.web.exposure.include: "*"
+
+spring.profiles.active: test
