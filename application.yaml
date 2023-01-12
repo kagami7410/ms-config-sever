@@ -1,5 +1,5 @@
 my:
-  greeting:Newly Updated twice!! Hello world from config server!!
+  greeting: Newly Updated twice!! Hello world from config server!!
   list:
     values: One, Two, Three
 app:
